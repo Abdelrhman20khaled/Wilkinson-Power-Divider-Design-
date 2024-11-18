@@ -12,7 +12,7 @@ The Wilkinson Power Divider is a passive RF device used to equally split an inpu
 - **Status**: Work in progress
 
 ## Schematic
-The RP2040 custom board schematic covers all necessary connections, including power supply, GPIO pins, and communication interfaces like I2C, SPI, and UART.
+The Wilkinson Power Divider schematic includes all essential components for power splitting and port isolation, such as inductors, capacitors, and resistors. The design ensures matched impedance at the input and output ports, while maintaining good isolation between the output ports. This schematic is intended for microstrip implementation and is optimized for use with a 50-ohm system.
 
 <img src="Schematic 1.png" width="500"/>
 
